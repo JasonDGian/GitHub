@@ -4,8 +4,8 @@
 # Welcome to my Git and GitHub explanation repo.
 In this repository, I will compile my knowledge about **Git** and **GitHub** to create a comprehensive reference for anyone needing a quick guide—a detailed cheat sheet for newcomers. The idea originated from a good friend who asked for tips about these tools, and I thought it would be beneficial for both of us to document this information. 
 
-[!Note]
-If you are willing to contribute to improving and expanding this humble guide, by all means, go ahead! Your contributions are welcome.
+>[!Note]
+>If you are willing to contribute to improving and expanding this humble guide, by all means, go ahead! Your contributions are welcome.
 
 **Without further ado, let's jump in.**
    
