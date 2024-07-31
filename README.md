@@ -25,6 +25,8 @@ To use Git, you'll need to install it on your system. The installation process v
 # Git and Github - File areas
 Git and Github manage files by putting them in four separate 'areas'. It is important to understand these areas so not to cause any trouble when working with repositories. There are 4 areas in which the files of your code can reside. 
 
+![book](https://github.com/user-attachments/assets/48145eed-e5bc-400e-a194-9846997c761b)
+
 1. Working directory.
 2. Staging area.
 3. Local repository.
