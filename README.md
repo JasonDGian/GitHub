@@ -69,14 +69,22 @@ Git clone is used to create a copy of an existing Git repository. When you clone
 `git clone link-to-source-repository`
 
 > [!IMPORTANT]
-> Using **git init** no 'upstream reference' will be configured and you will have to do that manually.
+> Using **git init** no [upstream connection](#upstream-reference) will be configured and you will have to do that manually.
 
 
 ## What defines a git repository in our system.
-A repository is characterized by a series of files and subdirectories located in the [**.git/**](#the-git-directory) directory. These files are essential for managing various aspects of your repository, including branch tracking, [upstream connections](), local repository history, and references.
+A repository is characterized by a series of files and subdirectories located in the [**.git/**](#the-git-directory) directory. These files are essential for managing various aspects of your repository, including branch tracking, [upstream connections](#upstream-reference), local repository history, and references.
 
 > [!CAUTION]
 > Deleting any of these files can lead to significant harm and potentially irreversible data loss if your work has not been pushed to a remote repository.
+
+---
+
+## Working with git areas.
+
+
+
+---
 
 # TODO
 The following concepts will be here documented and elucidated.
@@ -138,3 +146,90 @@ The **upstream flow** or **upstream reference** is the link that connects your l
 
 To set an upstream flow use command: 
 `git branch --set-upstream <remote-repository>`
+
+----
+
+1. Introduction to Version Control
+
+    What is version control?
+    Benefits of using version control systems
+
+2. Basic Git Concepts
+
+    What is Git?
+    Local repository vs. remote repository
+    Git's architecture: Working directory, staging area, and local repository
+
+3. Setting Up Git
+
+    Installing Git
+    Basic configuration (git config)
+
+4. Creating and Cloning Repositories
+
+    Initializing a new repository (git init)
+    Cloning an existing repository (git clone)
+
+5. Basic Git Workflow
+
+    Checking the status of the repository (git status)
+    Adding changes to the staging area (git add)
+    Committing changes (git commit)
+    Viewing commit history (git log)
+
+6. Branching and Merging
+
+    What is a branch?
+    Creating and switching branches (git branch, git checkout)
+    Merging branches (git merge)
+    Resolving merge conflicts
+
+7. Remote Repositories
+
+    What is a remote repository?
+    Adding and managing remote repositories (git remote)
+    Fetching and pulling changes (git fetch, git pull)
+    Pushing changes (git push)
+
+8. Tagging
+
+    What are tags?
+    Creating and listing tags (git tag)
+
+9. Undoing Changes
+
+    Viewing changes (git diff)
+    Undoing changes in the working directory (git checkout, git restore)
+    Removing changes from the staging area (git reset)
+    Reverting commits (git revert)
+
+10. Advanced Git Commands
+
+    Interactive rebase (git rebase -i)
+    Cherry-picking commits (git cherry-pick)
+    Stashing changes (git stash)
+
+11. GitHub Basics
+
+    What is GitHub?
+    Creating a GitHub account
+    Navigating the GitHub interface
+    Forking repositories
+    Creating pull requests
+
+12. Collaborative Workflow
+
+    Forking and contributing to projects
+    Using issues and project boards
+    Code reviews and collaboration best practices
+
+13. GitHub Actions and Automation
+
+    Introduction to GitHub Actions
+    Setting up workflows for continuous integration (CI) and continuous deployment (CD)
+
+14. Advanced GitHub Features
+
+    GitHub Pages for project documentation
+    Managing repository settings and permissions
+    Leveraging GitHub’s API and integrations
