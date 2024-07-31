@@ -110,6 +110,7 @@ The following concepts will be here documented and elucidated.
 # Origin
 
 
+`git remove cached` -> mirar correcto.
 `git init` - Initializes a new local repository.
   
 `git clone` - Clones a repository from a remote source.
