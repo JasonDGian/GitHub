@@ -2,7 +2,7 @@
 --- 
    
 # Welcome to my Git and GitHub explanation repo.
-In this repository, I will compile my knowledge about **Git** and **GitHub** to create a comprehensive reference for anyone needing a quick guide—a detailed cheat sheet for newcomers. The idea originated from a good friend who asked for tips about these tools, and I thought it would be beneficial for both of us to document this information. 
+In this repository, I will compile my knowledge about **Git** and **GitHub** to create a comprehensive reference for anyone needing a quick guide, sort of a detailed cheat sheet for newcomers. The idea originated from a good friend who asked for tips about these tools, and I thought it would be beneficial for both of us to document this information. In case you are looking for the, much more detailed, official docs check [here!](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)
 
 >[!Note]
 >If you are willing to contribute to improving and expanding this humble guide, by all means, go ahead! Your contributions are welcome.
@@ -56,20 +56,27 @@ The remote repository, often referred to as 'origin', is synchronized with your 
 ---
 
 # Working with repositories.
-To work with a repository, you need to either initialize a new local repository or clone an existing one from a remote source (origin).
+So, what can we do with repositories? We can create (initialize), import, modify or delete a repository.  
 
+## Creating or importing a repository.  
+To start working with a repository, you need to either initialize a new local repository or clone an existing one from a remote source (origin).  
 To initialize a repository locally we must use the `git init <new_repo_name> ` command, and to clone a remote repository we use the `git clone <existing_repo_link>` command.
 
-## Git init
+### Git init
 Git init is the command that initializes a new empty repository on your local working directory. This command will create a new repository without any files in it aside from [**.git/**](#the-git-directory) directory.
 `git init name-of-repo`   
 
-## Git clone
+### Git clone
 Git clone is used to create a copy of an existing Git repository. When you clone a repository, you create a new local repository that is an exact duplicate of the remote repository, including all its history and branches.   
 `git clone link-to-source-repository`
 
 > [!IMPORTANT]
 > Using **git init** no [upstream connection](#upstream-reference) will be configured and you will have to do that manually.
+
+## Modifying a repository.
+
+## Deleting a repository.
+
 
 
 ## What defines a git repository in our system.
