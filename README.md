@@ -18,7 +18,7 @@ Before we begin, I'd like to make the somewhat pedantic distinction between Git 
    
 Git is a versatile tool that can be used not only with GitHub but also in a variety of other configurations. For example, a company might manage its codebase through a strictly local repository, allowing employees to collaborate internally without relying on an external hub. Similarly, a solo developer might use Git solely on their own PC for personal projects, choosing not to upload their files to any external service. 
 
-To use Git, you'll need to install it on your system. The installation process varies depending on your operating system and distribution—whether you're using Linux or Windows. But you probably already knew that.
+To use Git, you'll need to install it on your system. The installation process varies depending on your operating system and distribution; whether you're using Linux or Windows. But you probably already knew that.
 
 ---
 
@@ -46,10 +46,14 @@ The remote repository, often referred to as "origin," is synchronized with your 
 
 #### The typical workflow:
    
-1. **Make Changes:** Modify files in your working directory.
-2. **Stage Changes:** Add the modified files to the staging area.
-3. **Commit Changes:** Save the changes to your local repository with a descriptive message.
-4. **Push Changes:** Synchronize your local repository with the remote repository (origin) by pushing the committed changes.
+1. **Make Changes:** 
+    - Modify files in your working directory.
+2. **Stage Changes:** 
+    -  Add the modified files to the staging area.
+3. **Commit Changes:** 
+    - Save the changes to your local repository with a descriptive message.
+4. **Push Changes:** 
+    - Synchronize your local repository with the remote repository (origin) by pushing the committed changes.
 
 ---
 
@@ -64,6 +68,8 @@ Git init is the command that initializes a new empty repository on your local wo
 This will create a new repository without any files in it aside from **.git/** directory.
 
 ## Git clone
+
+ ## What defines a git repository.
 
 
 # TODO
@@ -90,13 +96,20 @@ The following concepts will be here documented and elucidated.
 # Origin
 
 
-`git init`
-`git clone`
-`git fetch`
-`git pull`
-`git push`
+`git init` - Initializes a new local repository.
+  
+`git clone` - Clones a repository from a remote source.
+
+`git fetch` - Downloads the latest information on commits, branches etc.. for the current repository.
+
+`git pull` - 'Pulls' the changes present in the remote repository to your local repository.
+
+`git push` - Uploads the changes currently staged to the remote repository.
+
 `git status`
+
 `git add`
+
 `git commit`
 `git alias`
 `git merge`
