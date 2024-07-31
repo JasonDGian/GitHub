@@ -18,7 +18,8 @@ Before we begin, I'd like to make the somewhat pedantic distinction between Git 
    
 Git is a versatile tool that can be used not only with GitHub but also in a variety of other configurations. For example, a company might manage its codebase through a strictly local repository, allowing employees to collaborate internally without relying on an external hub. Similarly, a solo developer might use Git solely on their own PC for personal projects, choosing not to upload their files to any external service. 
 
-To use Git, you'll need to install it on your system. The installation process varies depending on your operating system and distribution; whether you're using Linux or Windows. But you probably already knew that.
+> [!IMPORTANT]
+> To use Git, you'll need to install it on your system. The installation process varies depending on your operating system and distribution; whether you're using Linux or Windows. But you probably already knew that.
 
 ---
 
@@ -39,21 +40,19 @@ The working directory is the local folder where all your files are stored while 
 The staging area is a temporary space. This is where the files you want to save and send to the local repository are placed before you confirm your action.
 
 ### Git - Local repository.
-The local repository exists on your machine and is not connected to the internet. If you lose your machine, you will also lose this repository.
+The local repository exists on your machine and is not connected to the internet. If you lose your machine, or delete the root folder, you will also lose this repository.
 
 ### GitHub - Remote repository.
-The remote repository, often referred to as "origin," is synchronized with your local repository to save and share your work.
+The remote repository, often referred to as 'origin', is synchronized with your local repository to save and share your work.
 
-#### The typical workflow:
+<br/>
+
+#### The typical workflow of Git + GitHub:
    
-1. **Make Changes:** 
-    - Modify files in your working directory.
-2. **Stage Changes:** 
-    -  Add the modified files to the staging area.
-3. **Commit Changes:** 
-    - Save the changes to your local repository with a descriptive message.
-4. **Push Changes:** 
-    - Synchronize your local repository with the remote repository (origin) by pushing the committed changes.
+1. **Make Changes** - Modify files in your working directory.
+2. **Stage Changes** - Add the modified files to the staging area.
+3. **Commit Changes** - Save the changes to your local repository with a descriptive message.
+4. **Push Changes** - Synchronize your local repository with the remote repository (origin) by pushing the committed changes.
 
 ---
 
@@ -63,9 +62,8 @@ To work with a repository, you need to either initialize a new local repository 
 To initialize a repository locally we must use the `git init <repo> ` command, and to clone a remote repository we use the `git clone <repo>` command.
 
 ## Git init
-Git init is the command that initializes a new empty repository on your local working directory. In order to do that we must use the following command.
-`git init name-of-repo`
-This will create a new repository without any files in it aside from **.git/** directory.
+Git init is the command that initializes a new empty repository on your local working directory. This command will create a new repository without any files in it aside from [**.git/**](#the-git-directory) directory.
+`git init name-of-repo`   
 
 ## Git clone
 
@@ -122,4 +120,7 @@ The following concepts will be here documented and elucidated.
 `git stash`
 
 
+# Other notes.
 
+## The .git/ directory.
+This directory contains the files that are used to track and keep record of your repository. **Deleting this directory will efectively destroy the repository status.** 
