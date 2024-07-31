@@ -44,7 +44,6 @@ The local repository exists on your machine and is not connected to the internet
 
 ### GitHub - Remote repository.
 The remote repository, often referred to as 'origin', is synchronized with your local repository to save and share your work.
-
 <br/>
 
 #### The typical workflow of Git + GitHub:
@@ -59,16 +58,25 @@ The remote repository, often referred to as 'origin', is synchronized with your 
 # Working with repositories.
 To work with a repository, you need to either initialize a new local repository or clone an existing one from a remote source (origin).
 
-To initialize a repository locally we must use the `git init <repo> ` command, and to clone a remote repository we use the `git clone <repo>` command.
+To initialize a repository locally we must use the `git init <new_repo_name> ` command, and to clone a remote repository we use the `git clone <existing_repo_link>` command.
 
 ## Git init
 Git init is the command that initializes a new empty repository on your local working directory. This command will create a new repository without any files in it aside from [**.git/**](#the-git-directory) directory.
 `git init name-of-repo`   
 
 ## Git clone
+Git clone is used to create a copy of an existing Git repository. When you clone a repository, you create a new local repository that is an exact duplicate of the remote repository, including all its history and branches.   
+`git clone link-to-source-repository`
 
- ## What defines a git repository.
+> [!IMPORTANT]
+> Using **git init** no 'upstream reference' will be configured and you will have to do that manually.
 
+
+## What defines a git repository in our system.
+A repository is characterized by a series of files and subdirectories located in the [**.git/**](#the-git-directory) directory. These files are essential for managing various aspects of your repository, including branch tracking, [upstream connections](), local repository history, and references.
+
+> [!CAUTION]
+> Deleting any of these files can lead to significant harm and potentially irreversible data loss if your work has not been pushed to a remote repository.
 
 # TODO
 The following concepts will be here documented and elucidated.
@@ -124,3 +132,9 @@ The following concepts will be here documented and elucidated.
 
 ## The .git/ directory.
 This directory contains the files that are used to track and keep record of your repository. **Deleting this directory will efectively destroy the repository status.** 
+
+## Upstream reference.
+The **upstream flow** or **upstream reference** is the link that connects your local repository on your machine with the remote repository on GitHub. This connection ensures that changes in your local repository can be pushed to the remote repository. Without this link, Git would have no way to transmit your local changes to the remote repository, as it wouldn't know where to send them.
+
+To set an upstream flow use command: 
+`git branch --set-upstream <remote-repository>`
