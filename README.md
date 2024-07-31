@@ -32,8 +32,29 @@ Git and Github manage files by putting them in four separate 'areas'. It is impo
 3. Local repository.
 4. Remote repository.
 
+### Git - Working directory.
+The working directory is the local folder where all your files are stored while you work on them.
+
+### Git - Staging area.
+The staging area is a temporary space. This is where the files you want to save and send to the local repository are placed before you confirm your action.
+
+### Git - Local repository.
+The local repository exists on your machine and is not connected to the internet. If you lose your machine, you will also lose this repository.
+
+### GitHub - Remote repository.
+The remote repository, often referred to as "origin," is synchronized with your local repository to save and share your work.
+
+#### The typical workflow:
+   
+1. **Make Changes:** Modify files in your working directory.
+2. **Stage Changes:** Add the modified files to the staging area.
+3. **Commit Changes:** Save the changes to your local repository with a descriptive message.
+4. **Push Changes:** Synchronize your local repository with the remote repository (origin) by pushing the committed changes.
+
+---
+
 # Working with repositories.
-To work with a repository we have to either initialize it  locally or clone it from a remote origin. 
+To work with a repository, you need to either initialize a new local repository or clone an existing one from a remote source (origin).
 
 To initialize a repository locally we must use the `git init <repo> ` command, and to clone a remote repository we use the `git clone <repo>` command.
 
