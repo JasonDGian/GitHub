@@ -1,10 +1,11 @@
 
  <H1 style="color:red;">WARNING</H1>
-> THIS IS A WORK IN PROGRESS DOC.
-> Information and concepts are not in the final order.
-> Some concepts are missing.
-> Some nasty drafts are currently written down.
-> Most of this document will change and improve in the future.
+ 
+> THIS IS A WORK IN PROGRESS DOC.   
+> Information and concepts are not in the final order.   
+> Some concepts are missing.   
+> Some nasty drafts are currently written down.   
+> Most of this document will change and improve in the future.   
 
 --- 
    
