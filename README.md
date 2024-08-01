@@ -1,4 +1,4 @@
-> [!WARNING]
+<strong style="color:orange;"> WARNING </strong>
 > THIS IS A WORK IN PROGRESS DOC.
 > Information and concepts are not in the final order.
 > Some concepts are missing.
