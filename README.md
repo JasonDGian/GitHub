@@ -1,4 +1,5 @@
-<strong style="color:orange;"> WARNING </strong>
+
+ <H1 style="color:red;">WARNING</H1>
 > THIS IS A WORK IN PROGRESS DOC.
 > Information and concepts are not in the final order.
 > Some concepts are missing.
