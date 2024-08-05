@@ -163,6 +163,28 @@ The **upstream flow** or **upstream reference** is the link that connects your l
 To set an upstream flow use command: 
 `git branch --set-upstream <remote-repository>`
 
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+Provided that the remote repository is origin, and that you're interested in master:
+
+git fetch origin
+git reset --hard origin/master
+
+
+
+
+
+
+
 ----
 
 1. Introduction to Version Control
