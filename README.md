@@ -271,3 +271,29 @@ git reset --hard origin/master
     GitHub Pages for project documentation
     Managing repository settings and permissions
     Leveraging GitHub’s API and integrations
+
+
+
+# OPERACIONES.
+
+Crear un repositorio.
+  - Inicializar un repositorio.
+    - Sincronizar flujo de subida.
+  - Clonar un repositorio.
+  - Bifurcar (fork) un repositorio.
+
+Renombrar un repositorio.
+
+Cambios en los repositorios.
+  Actualizar cabeceras.
+  Descargar cambios desde remoto.
+  Subir cambios de local a remoto.
+
+Re-escribir la historia de un repositorio.
+  - Reescribir la historia local.
+  - Reecribir la historia remota.
+
+Administrar ramas.
+- Crear una rama.
+- Fusionar una rama (merge).
+- 
