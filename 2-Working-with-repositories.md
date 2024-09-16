@@ -38,6 +38,13 @@ This command creates a new directory named after the repository (unless specifie
 > Using **git init** no [upstream connection](#upstream-reference) will be configured and you will have to do that manually.
 
 ## 🔹 Modifying a repository.
+Within a repository you can perform several actions.
+- Rename the repository.
+- Change the default branch.
+- Modify repository visibility (public/private).
+- Manage collaborators and permissions.
+- Set up webhooks or branch protection rules.
+- Enable or disable features like issues or wikis.
 
 ## 🔹 Deleting a repository.
 
