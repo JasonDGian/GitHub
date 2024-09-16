@@ -3,19 +3,37 @@ So, what can we do with repositories? We can create (initialize), import (clone)
 
 ## 🔹 Creating or importing repositories.  
 To start working with a repository, you need to either initialize a new local repository or clone an existing one from a remote source (origin).  
-To initialize a repository locally we must use the `git init` command, and to clone a remote repository we use the `git clone <existing_repo_link>` command.
+To initialize a repository locally we must use the `git init` command, and to clone a remote repository we use the `git clone` command.
 
 ### ▫️ Git init
 Git init is the command that initializes a new empty repository on your local working directory. This command will create a new repository without any files in it aside from [**.git/**](#the-git-directory) directory.
 
+**Syntax**
 ```bash
 git init name-of-repo
 ```   
 
-### ▫️ Git clone
-Git clone is used to create a copy of an existing Git repository. When you clone a repository, you create a new local repository that is an exact duplicate of the remote repository, including all its history and branches.   
-`git clone link-to-source-repository`
+**Example**
+```bash
+git init myFirstRepo
+```
+This command creates a new repository named myFirstRepo without any upstream syncronization or connection.
 
+### ▫️ Git clone
+Git clone is used to create a local copy of an existing Git repository. This command downloads the repository, including all its files, commit history, branches, and tags, to your local machine.
+By default, it also sets the remote repository (referred to as origin) as the upstream, so you can easily push changes back to the original repository after committing them locally.
+**Syntax**
+```bash
+git clone link-to-source-repository
+```   
+
+**Example**
+```bash
+git clone https://github.com/user/repository.git
+```
+This command creates a new directory named after the repository (unless specified otherwise) and clones all its contents into that directory.
+   
+   
 > [!IMPORTANT]
 > Using **git init** no [upstream connection](#upstream-reference) will be configured and you will have to do that manually.
 
