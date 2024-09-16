@@ -41,9 +41,9 @@ The remote repository, often referred to as 'origin', is synchronized with your 
 
 # 📌 The typical workflow of Git + GitHub:
    
-1. **Make Changes** - Modify files in your working directory.
-2. **Stage Changes** - Add the modified files to the staging area.
-3. **Commit Changes** - Save the changes to your local repository with a descriptive message.
+1. **Make Changes** - Modify or create new files in your working directory.
+2. **Stage Changes** - Add the modified or new files to the staging area.
+3. **Commit Changes** - Save the changes to your local repository with a descriptive message (commit).
 4. **Push Changes** - Synchronize your local repository with the remote repository (origin) by pushing the committed changes.
 
 ---
