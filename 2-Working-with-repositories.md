@@ -3,11 +3,14 @@ So, what can we do with repositories? We can create (initialize), import (clone)
 
 ## 🔹 Creating or importing repositories.  
 To start working with a repository, you need to either initialize a new local repository or clone an existing one from a remote source (origin).  
-To initialize a repository locally we must use the `git init <new_repo_name> ` command, and to clone a remote repository we use the `git clone <existing_repo_link>` command.
+To initialize a repository locally we must use the `git init` command, and to clone a remote repository we use the `git clone <existing_repo_link>` command.
 
 ### ▫️ Git init
 Git init is the command that initializes a new empty repository on your local working directory. This command will create a new repository without any files in it aside from [**.git/**](#the-git-directory) directory.
-`git init name-of-repo`   
+
+```bash
+git init name-of-repo
+```   
 
 ### ▫️ Git clone
 Git clone is used to create a copy of an existing Git repository. When you clone a repository, you create a new local repository that is an exact duplicate of the remote repository, including all its history and branches.   
