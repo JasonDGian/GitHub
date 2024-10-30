@@ -219,4 +219,16 @@ Re-escribir la historia de un repositorio.
 Administrar ramas.
 - Crear una rama.
 - Fusionar una rama (merge).
-- 
+
+
+# Borrar ficheros en GitHub.
+Para borrar ficheros del repositorio remoto usamos el siguiente comando (esto no afectará los ficheros presentes en el directorio de trabajo local).
+```git
+git rm -r --cached
+```
+
+Tambien podemos hacerlo tomando como referencia nuestro directorio de trabajo local, reflejando los ficheros borrados en el remoto.
+```git
+git commit -a
+```
+https://git-scm.com/docs/git-rm
