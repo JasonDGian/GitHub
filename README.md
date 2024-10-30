@@ -227,7 +227,7 @@ Para borrar ficheros del repositorio remoto usamos el siguiente comando (esto no
 git rm -r --cached
 ```
 
-Tambien podemos hacerlo tomando como referencia nuestro directorio de trabajo local, reflejando los ficheros borrados en el remoto.
+Tambien podemos hacerlo tomando como referencia nuestro directorio de trabajo local. De este modo, todos los ficheros que borramos en el directorio de trabajo local desaparecerán también del repositorio remoto.
 ```git
 git commit -a
 ```
